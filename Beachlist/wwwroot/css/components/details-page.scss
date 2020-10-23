@@ -1,0 +1,120 @@
+﻿.details-page {
+
+
+    .details-intro-section {
+        font-family: Helvetica;
+        background-color: #FFF3E0;
+
+        .details-intro-container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 50px 0px 50px 0px;
+
+            .details-textinfo {
+
+                .details-textinfo-title {
+                    text-transform: uppercase;
+                }
+
+                .details-textinfo-rating:before {
+                    content: "";
+                    display: block;
+                    background: url('../../images/star.png') no-repeat;
+                    background-size: 15px 15px;
+                    width: 15px;
+                    height: 15px;
+                    float: left;
+                    margin: 0 6px 0 0;
+                }
+
+                .details-textinfo-location {
+                    text-transform: uppercase;
+                    color: #F6935F;
+                }
+
+                .details-textinfo-description {
+                    padding: 30px 0px 30px 0px;
+                }
+            }
+        }
+    }
+
+    .details-info-section {
+        background-color: #0092AF;
+
+        .details-info-container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 50px 0px 50px 0px;
+
+            .details-info-menu {
+            }
+
+            .details-info-description {
+                color: white;
+            }
+
+            .details-info-data {
+
+
+                .details-info-data-card {
+                    background: #FFFFFF;
+                    border: 1px solid rgba(255,255,255,0.50);
+                    border-radius: 6px;
+                    padding: 20px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    .details-review-section {
+        background-color: #FFF3E0;
+        height: 600px;
+
+        .detail-review-container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 50px 0px 50px 0px;
+
+            .detail-review-rating {
+            }
+
+            .detail-review-rating:before {
+                content: "";
+                display: block;
+                background: url('../../images/star.png') no-repeat;
+                background-size: 15px 15px;
+                width: 15px;
+                height: 15px;
+                float: left;
+                margin: 0 6px 0 0;
+            }
+
+            .detail-review-title {
+                font-size: 24px;
+            }
+
+            .detail-review-card {
+                background: #FFFFFF;
+                border: 1px solid rgba(255,255,255,0.50);
+                border-radius: 6px;
+                padding: 20px;
+                height: 150px;
+                margin: 20px 0px 20px 0px;
+            }
+        }
+    }
+
+    .details-footer {
+        height: 80px;
+        background-color: #F6935F;
+
+        .details-footer-container {
+            color: white;
+            width: 60%;
+            margin: 0 auto;
+            padding: 30px 0px 30px 0px;
+        }
+    }
+}

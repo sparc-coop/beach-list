@@ -1,0 +1,23 @@
+﻿.navbar-main {
+    height: 120px;
+
+    .navbar-container {
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 30px;
+
+        .navbar-logo {
+            float: left;
+
+            img {
+                height: 60px;
+                width: auto;
+            }
+        }
+
+        .navbar-links {
+            padding-top: 20px;
+            float: right;
+        }
+    }
+}

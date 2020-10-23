@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+
+@*<div class="sidebar">
+    <NavMenu />
+</div>*@
+
+<div class="main">
+    <div class="navbar-main">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="/images/Group_5.png" />
+            </div>
+            <div class="navbar-links">
+                Home     About     Contact     
+            </div>
+        </div>
+    </div>
+
+    @*<div class="top-row px-4 auth">
+        <LoginDisplay />
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    </div>*@
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
